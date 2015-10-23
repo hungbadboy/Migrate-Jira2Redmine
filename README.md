@@ -1,8 +1,6 @@
 This project is looking for a new maintainer
 If you are interested in taking over, please contact me personally.
 
-How to
-
 jira2redmine
 ============
 
