@@ -16,7 +16,19 @@ How to
 - Setting path data attachments:/home/redmine/JIRA-backup-20150303. Move all file in folder 100 to out folder 100.
  
 
-Script run
+jira2redmine
+============
 
-# rake jira_migration:test_all_migrations RAILS_ENV="production"# Tests all parsers!
-# rake jira_migration:do_all_migrations RAILS_ENV="production"
+Script for import from JIRA to redmine
+
+for more information please look at: http://www.redmine.org/issues/1385
+
+## How to
+
+Copy `migrate_jira.rake` to `lib/tasks` in your *Redmine* directory and the execute the following:
+
+```
+rake jira_migration:test_all_migrations RAILS_ENV="production"
+rake jira_migration:do_all_migrations RAILS_ENV="production"
+```
+
