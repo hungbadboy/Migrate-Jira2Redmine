@@ -1,11 +1,6 @@
 This project is looking for a new maintainer
 If you are interested in taking over, please contact me personally.
 
-jira2redmine
-Script for import from JIRA to redmine
-
-for more information please look at: http://www.redmine.org/issues/1385
-
 How to
 
 jira2redmine
